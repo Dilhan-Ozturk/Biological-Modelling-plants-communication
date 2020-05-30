@@ -1,0 +1,68 @@
+# Parameter set for type
+type 1
+name primaryroots
+lb 3 0.03
+la 6.14 3.07
+ln 0.154 0.4964
+lmax 200 2
+r 1.1654 0.116
+a 1 0.2
+color 0.5 0.5 0.5
+tropism 1 2 0.832
+dx 1
+successors 2 2 20
+successorP 2 0.2 0.8
+theta 0 0
+rlt 3000 300
+gf 1
+# Parameter set for type
+type 2
+name secondaryroots
+lb 0.8 0.008
+la 2 0.2
+ln 0.56 0.056
+lmax 20 5
+r 0.38 0.038
+a 0.5 0.1
+color 0 1 0
+tropism 1 2 0.18
+dx 1
+successors 1 20
+successorP 1 1
+theta 0.882 0.0882
+rlt 3000 300
+gf 1
+# Parameter set for type
+type 20
+name secondaryroots
+lb 3 0.03
+la 1 0.01
+ln 0.8889 0.001
+lmax 500 0
+r 0.08 0.008
+a 0.1 0.02
+color 0 1 0
+tropism 0 1 0.5
+dx 1
+successors 1 50
+successorP 1 1
+theta 1.01 0
+rlt 3000 300
+gf 1
+# Parameter set for type
+type 50
+name secondaryroots
+lb 500 5
+la 500 5
+ln 0 0
+lmax 500 5
+r 0.08 0.008
+a 0.1 0.02
+color 0 1 0
+tropism 0 1 0.5
+dx 1
+successors 0 0
+successorP 1 1
+theta 1.01 0
+rlt 3000 300
+gf 1
